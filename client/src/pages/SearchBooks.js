@@ -33,7 +33,7 @@ const SearchBooks = () => {
     }
 
     try {
-      const response = await searchGoogleBooks(searchInput);
+      const response = await serachGoogleBooks(searchInput);
 
       if (!response.ok) {
         throw new Error('something went wrong!');
